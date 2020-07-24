@@ -12,7 +12,7 @@ minPts = 3
 inputFile = input("Please insert file path: ")
 
 #directories
-#inputFile = r"C:\Work\Operators\TWM\scanner\pythonCode\data\TaoYuan.xlsx"
+#inputFile = r"C:\Work\Operators\scanner\pythonCode\data\TaoYuan.xlsx"
 outputFile = os.path.splitext(inputFile)[0] + "Cluster.csv"
 #read excel
 scanner = pd.read_excel(inputFile, sheet_name="Series Formatted Data")
